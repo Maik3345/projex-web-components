@@ -1,23 +1,16 @@
 {
   "compilerOptions": {
-    "target": "ES2017",                  // El nivel de ECMAScript al que compilar
-    "module": "ESNext",                  // El sistema de módulos para la salida
-    "moduleResolution": "node",          // Cómo resolver módulos
-    "experimentalDecorators": true,      // Habilitar decoradores experimentales (opcional)
-    "emitDecoratorMetadata": true,       // Emitir metadatos para decoradores (opcional)
-    "strict": true,                      // Habilitar todas las verificaciones estrictas
-    "esModuleInterop": true,             // Habilitar interoperabilidad con módulos CommonJS
-    "skipLibCheck": true,                // Omitir la verificación de tipo en archivos de declaración
-    "forceConsistentCasingInFileNames": true, // Forzar la consistencia en los nombres de archivos
-    "baseUrl": ".",                      // Base URL para las resoluciones de módulos
-    "paths": {
-      "@/*": ["src/*"]                  // Ajustar la base de la ruta a la carpeta src (opcional)
-    }
+    "target": "ES2020",
+    "module": "ES2020",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "declaration": false,
+    "outDir": "./dist"
   },
   "include": [
-    "src/**/*.ts"                        // Incluir todos los archivos TypeScript en la carpeta src
+    "src/**/*"
   ],
   "exclude": [
-    "node_modules"                       // Excluir la carpeta node_modules
+    "node_modules"
   ]
 }
