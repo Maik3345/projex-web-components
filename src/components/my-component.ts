@@ -1,6 +1,5 @@
-// src/my-component.ts
 import { LitElement, html, css } from "lit";
-import { customElement } from "lit/decorators.js";
+import { customElement, property } from "lit/decorators.js";
 
 @customElement("my-component")
 export class MyComponent extends LitElement {
@@ -12,7 +11,9 @@ export class MyComponent extends LitElement {
     }
   `;
 
+  @property() name = "Somebody";
+
   override render() {
-    return html`<h1>Hello from My Component!</h1>`;
+    return html`<p>Hello, ${this.name}!</p>`;
   }
 }
