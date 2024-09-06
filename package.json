@@ -1,11 +1,12 @@
 {
   "name": "projex-web-components",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "build": "npx rollup -c",
-    "prepare": "npx husky"
+    "prepare": "npx husky",
+    "postreleasy": "npm run build"
   },
   "type": "module",
   "keywords": [],

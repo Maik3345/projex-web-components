@@ -3,7 +3,7 @@ import commonjs from "@rollup/plugin-commonjs";
 import terser from '@rollup/plugin-terser';
 
 export default {
-  input: "equalization-component.ts",
+  input: "my-component.ts",
   output: {
     file: "dist/bundle.js",
     format: "esm",
