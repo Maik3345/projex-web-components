@@ -1,12 +1,18 @@
 import resolve from "@rollup/plugin-node-resolve";
 import commonjs from "@rollup/plugin-commonjs";
-import terser from '@rollup/plugin-terser';
+import typescript from "rollup-plugin-typescript2";
+import litcss from "rollup-plugin-lit-css";
+import terser from "@rollup/plugin-terser";
 
 export default {
-  input: "my-component.ts",
-  output: {
-    file: "dist/bundle.js",
-    format: "esm",
-  },
-  plugins: [resolve(), commonjs(), terser()],
+  input: "src/index.ts",
+  output: [
+    {
+      dir: "dist",
+      format: "esm",
+      entryFileNames: "[name].js",
+      sourcemap: true,
+    },
+  ],
+  plugins: [resolve(), commonjs(), typescript(), litcss(), terser()],
 };
