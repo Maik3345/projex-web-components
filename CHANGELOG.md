@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [1.6.0](https://github.com/Maik3345/projex-web-components/compare/v1.5.0...v1.6.0) - (2024-09-06)
+
+### Miscellaneous Chores
+
+* update rollup.config.js and tsconfig.json ([e9219e96](https://github.com/Maik3345/projex-web-components/commit/e9219e9614d7af8673ed8748ec653ae198b77e58))
+
+
 ## [1.5.0](https://github.com/Maik3345/projex-web-components/compare/v1.4.0...v1.5.0) - (2024-09-06)
 
 ### Miscellaneous Chores
