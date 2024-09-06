@@ -1,7 +1,7 @@
 import { LitElement, html, css } from "lit";
 
 class MyComponent extends LitElement {
-  static styles = css`
+  static override styles = css`
     :host {
       display: block;
       background-color: lightgray;
@@ -9,7 +9,7 @@ class MyComponent extends LitElement {
     }
   `;
 
-  render() {
+  override render() {
     return html`<h1>Hola desde MyComponent!</h1>`;
   }
 }
