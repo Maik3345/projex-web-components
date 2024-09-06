@@ -11,7 +11,8 @@
     "clean": "rm -rf dist",
     "build": "npm run clean && npx rollup -c",
     "prepare": "npx husky",
-    "postreleasy": "npm run build && npm publish"
+    "postreleasy": "npm run build && npm publish",
+    "dev": "npx rollup -c --watch"
   },
   "type": "module",
   "keywords": [],

@@ -1,6 +1,9 @@
+// src/my-component.ts
 import { LitElement, html, css } from "lit";
+import { customElement } from "lit/decorators.js";
 
-class MyComponent extends LitElement {
+@customElement("my-component")
+export class MyComponent extends LitElement {
   static override styles = css`
     :host {
       display: block;
@@ -10,8 +13,6 @@ class MyComponent extends LitElement {
   `;
 
   override render() {
-    return html`<h1>Hola desde MyComponent!</h1>`;
+    return html`<h1>Hello from My Component!</h1>`;
   }
 }
-
-customElements.define("my-component", MyComponent);
