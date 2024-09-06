@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [1.3.0](https://github.com/Maik3345/projex-web-components/compare/v1.2.0...v1.3.0) - (2024-09-06)
+
+### Features
+
+* add export for components in index.ts ([771c8cf8](https://github.com/Maik3345/projex-web-components/commit/771c8cf89bf4af1de3ce0084356b638c474e00c3))
+
+
 ## [1.2.0](https://github.com/Maik3345/projex-web-components/compare/v1.1.0...v1.2.0) - (2024-09-06)
 
 ### Code Refactoring
