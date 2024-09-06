@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [1.5.0](https://github.com/Maik3345/projex-web-components/compare/v1.4.0...v1.5.0) - (2024-09-06)
+
+### Miscellaneous Chores
+
+* update readme.md ([7f8fae45](https://github.com/Maik3345/projex-web-components/commit/7f8fae45b2f1c325aa664efb4e1cd79740a9266d))
+
+
 ## [1.4.0](https://github.com/Maik3345/projex-web-components/compare/v1.3.1-4...v1.4.0) - (2024-09-06)
 
 ### Features
