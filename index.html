@@ -1,12 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Web Component Test</title>
-  <script type="module" src="dist/index.js"></script>
-</head>
-<body>
-  <my-component></my-component>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Component Test</title>
+    <script type="module" src="dist/my-component.js"></script>
+    <script>
+      window.testMaik = function (sum) {
+        console.log(sum);
+      };
+    </script>
+  </head>
+  <body>
+    <my-component
+      number1="5"
+      number2="5"
+      handleOnSumNumber="testMaik"
+    ></my-component>
+  </body>
 </html>
